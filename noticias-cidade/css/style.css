@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+/*     border: 1px solid red;
+ */}
+
+#topo {
+     height: 150px;
+/*      border: 1px solid red;
+ */     padding-top: 25px;
+     background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#topo ul {
+    margin-top: 30px;
+    background: #b00334;
+    float: left;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+body.home #navegacao a#home, 
+body.brasil #navegacao a#brasil, 
+body.interncaional #navegacao a#internacional, 
+body.fotos #navegacao a#fotos 
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+#lateral {
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+    background-color: yellow;
+}
+
+#tres-colunas #primario {
+    width: 270px;
+    float: left;
+    background: blue;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    background: blue;
+    margin: 0 0 20px 195px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    background: green;
+    margin: 0 0  20px 15px;
+}
+
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
